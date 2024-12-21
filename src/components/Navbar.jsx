@@ -75,8 +75,8 @@ const Navbar = () => {
             <nav className='justify-content-end'>
                 <Link className='a text-decoration-none' to="/">Home</Link>
                 <Link className='a text-decoration-none' to="/movies">Movies</Link>
-                <Link className='a text-decoration-none' to="/movies">Reporters</Link>
-                <Link className='a text-decoration-none' to="/movies">About </Link>
+                {/* <Link className='a text-decoration-none' to="/movies">Reporters</Link>
+                <Link className='a text-decoration-none' to="/movies">About </Link> */}
                 <Link className='a text-decoration-none' to="/support">Support</Link>
             
             </nav>
@@ -84,8 +84,8 @@ const Navbar = () => {
             <nav id='nav' className='justify-content-end'>
                 <Link className='text-light text-decoration-none' to="/">Home</Link>
                 <Link className='text-light text-decoration-none' to="/movies">Movies</Link>
-                <Link className='text-light text-decoration-none' to="/movies">Reporters</Link>
-                <Link className='text-light text-decoration-none' to="/movies">About </Link>
+                {/* <Link className='text-light text-decoration-none' to="/movies">Reporters</Link>
+                <Link className='text-light text-decoration-none' to="/movies">About </Link> */}
                 <Link className='text-light text-decoration-none' to="/support">Support</Link>
             
             </nav>
